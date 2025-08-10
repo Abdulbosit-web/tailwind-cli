@@ -1,0 +1,16 @@
+{
+  "name": "mini_project",
+  "version": "1.0.0",
+  "description": "Setup tailwindcss through tailwind cli",
+  "license": "ISC",
+  "author": "Abdulla",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile-tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
